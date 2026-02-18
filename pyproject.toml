@@ -1,0 +1,17 @@
+[project]
+name = "bandcamp-dl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "certifi>=2026.1.4",
+    "charset-normalizer>=3.4.4",
+    "idna>=3.11",
+    "mutagen>=1.47.0",
+    "requests>=2.32.5",
+    "urllib3>=2.6.3",
+]
+
+[project.scripts]
+bandcamp_dl = "bandcamp_dl:main"
