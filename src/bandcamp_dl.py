@@ -49,7 +49,7 @@ def download(album_link):
     curr = 0
     while curr != len(links):
         sleep_time = float(randint(200,500)) / 100
-        print(f'sleep {sleep_time}')
+        # print(f'sleep {sleep_time}')
         sleep(sleep_time)
 
 
